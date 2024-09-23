@@ -1,0 +1,9 @@
+.newTransactionForm {
+    display: flex;
+    align-items: center;
+
+    & > * {
+        flex: 0 1 15%;
+        margin-right: 20px;
+    }
+}

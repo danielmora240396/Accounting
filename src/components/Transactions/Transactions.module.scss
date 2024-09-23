@@ -1,0 +1,28 @@
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    tr {
+        height: 40px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+    }
+
+    .expense {
+        background-color: #f8d7da;
+    }
+
+    .income {
+        background-color: #d4edda;
+    }
+}

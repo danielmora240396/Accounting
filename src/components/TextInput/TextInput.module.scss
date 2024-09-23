@@ -1,0 +1,32 @@
+.custom_input {
+    position: relative;
+    margin: 25px 0;
+
+    label {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            display: block;
+            position: absolute;
+            left: 0;
+            transition: all 0.3s ease;
+            top: 5px;
+            left: 10px;
+            opacity: 0;
+    }
+
+    input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            margin-top: 5px;
+            z-index: 30;
+            font-size: 1.2rem;
+
+            &:not(:placeholder-shown) + label {
+                opacity: 1;
+                transform: translateY(-25px) ;
+            }
+    }
+}

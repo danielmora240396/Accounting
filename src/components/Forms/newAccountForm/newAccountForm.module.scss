@@ -1,0 +1,18 @@
+.form_container {
+    h2 {
+        color: #000;
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+
+        .select_fields {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+    }
+}
